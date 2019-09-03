@@ -42,10 +42,15 @@ header h1{
 .container{
     display: flex;
     /* flex-direction: column; */
-    /* flex-direction: row; */
+    flex-direction: row;
 }
 .aside{
     border: black 1px solid;
     width: 30%;
+    padding: 15px;
+
+}
+.section{
+    margin: 20px;
 
 }
