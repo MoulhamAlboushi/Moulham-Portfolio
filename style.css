@@ -39,8 +39,8 @@ h1{
     justify-content: center;   
 }
 .color{
-    height: 416px;
-    width: 416px;
+    height: 417px;
+    width: 417px;
     border: 2px black solid;
     background-color: rgba(78, 77, 77, 0.666);
     display: grid;
