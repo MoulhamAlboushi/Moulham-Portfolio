@@ -1,0 +1,11 @@
+* html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/img/background-img-front-end.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
