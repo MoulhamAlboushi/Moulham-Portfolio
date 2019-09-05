@@ -41,3 +41,9 @@ main img{
     height: 180px;
 
 } 
+button{
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+
+}
