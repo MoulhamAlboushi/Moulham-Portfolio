@@ -1,0 +1,42 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+        background-repeat: no-repeat;
+        background-position: center ; 
+        background-size: cover;
+}
+    
+a{
+        text-decoration: none;
+}
+
+.table{
+    background-color: aqua;
+    width: 420px;
+    padding: 10px;
+    border:1px solid black;
+    
+}
+.about{
+    background-color: aquamarine;
+    border:1px solid black;
+}
+.zorgvoorelkaar-Breda{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+}
+.bnl-stansvormen{
+    background-color: chartreuse;
+    border: 1px black solid;
+}
+.fotograaf{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(9, 140px);
+    margin: auto;
+    /* margin: 0 auto; */
+}
