@@ -1,0 +1,43 @@
+* html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+/* body{
+    background-image: url(img/background-img-front-end.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+} */
+h1{
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin: 15%;
+    margin-top: 150px;
+    
+}
+/* .spook{
+    height: 40em;
+} */
+main{
+    position: absolute;
+    top: 27em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px white solid;
+    padding: top 50px;
+}
+main img{
+    width: 300px;
+    height: 180px;
+
+} 
