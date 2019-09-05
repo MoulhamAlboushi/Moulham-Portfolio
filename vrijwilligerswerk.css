@@ -39,5 +39,8 @@ a{
     grid-template-columns: repeat(9, 140px);
     margin: auto;
     justify-content: center;
+    background-image: url(/img/Breda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* margin: 0 auto; */
 }
