@@ -46,3 +46,18 @@ a{
     background-size: cover;
     /* margin: 0 auto; */
 }
+.zorgvoor-icon img{
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+
+
+}
+.zorgvoor-icon h2{
+    
+    height: 190px;
+    
+    text-align: center;
+    /* align-items: center; */
+    
+}
