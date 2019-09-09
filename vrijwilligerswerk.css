@@ -46,10 +46,12 @@ a{
     background-size: cover;
     /* margin: 0 auto; */
 }
+.zorgvoor-icon{display: flex;
+}
 .zorgvoor-icon img{
     width: 200px;
     padding: 20px;
-    /* display: inline-block; */
+    display: inline;
 
 
 }
@@ -57,6 +59,7 @@ a{
     
 width: 500px;    
     text-align: center;
+    margin: 40px;
     /* align-items: center; */
     
 }
