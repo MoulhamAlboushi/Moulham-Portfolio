@@ -49,14 +49,13 @@ a{
 .zorgvoor-icon img{
     width: 200px;
     padding: 20px;
-    display: inline-block;
+    /* display: inline-block; */
 
 
 }
 .zorgvoor-icon h2{
     
-    height: 190px;
-    
+width: 500px;    
     text-align: center;
     /* align-items: center; */
     
