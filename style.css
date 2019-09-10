@@ -6,9 +6,7 @@ body{
     background-image: url(img/body-img.jpg);
     background-repeat: no-repeat;
     /* background-position: relative ;  */
-    background-size: cover;
-
-    
+    background-size: cover;   
 }
 a{
     text-decoration: none;
