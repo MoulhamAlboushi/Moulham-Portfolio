@@ -44,9 +44,7 @@ header{
 header img{
     border-radius: 50%;
     border: 6px  rgb(118, 119, 233);
-    box-shadow: 0 0 20px 5px rgba(175, 192, 207, 0.664);
-    box-shadow
-    
+    box-shadow: 0 0 20px 5px rgba(175, 192, 207, 0.664);    
     width: 20%;
     /* margin-left: 10px; */
 }
@@ -68,18 +66,20 @@ header img{
     flex: 5;
 } */
 .aside{
-    /* border: black 1px solid; */
+    border: black 1px solid;
     display: inline-block;
     background-color: rgba(136, 172, 204, 0.664);
     width: 30%;
     padding: 15px;
-    margin-right: 0px;
+    /* margin-right: 0px; */
     /* margin-top: 20px; */
 
 }
 .section{
+    border: 1px solid red;
     display: inline-block;
-    margin: 0px;
+    margin-top:50px;
+    width: 740px;
     background-color: #e1b0e6ea;
     padding-bottom: 30px;
     padding-left: 25px;
@@ -92,17 +92,17 @@ header img{
     padding-left: 20px;
 }
 header {
-    /* border: 1px black solid; */
+    border: 1px solid black;
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 header img{
     width: 20%;
     border-radius: 50%;
-    border:  rgb(118, 119, 233); 9px solid;
+    border:  rgb(118, 119, 233) 9px solid;
 }
 .werkervaring{
 }
