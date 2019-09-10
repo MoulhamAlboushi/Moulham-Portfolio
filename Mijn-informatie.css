@@ -25,45 +25,65 @@ h3{
 header h1{
     display: inline-block;
     position: absolute;
-    background-color: rgb(86, 89, 240);
-    width: 58%;
-    text-align: center;
+    left: 18%;
+    background-color: rgb(118, 119, 233);
+    width: 60%;
+    /* text-align: center; */
     padding-top: 10px;
+    padding-left: 200px;
     padding-bottom: 10px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     /* padding-right: 40%;
     padding: 1rem 25% 1rem 30%; */
     z-index: -1;
 }
+header{
+    position: absolut;
+    top:500px;
+}
 header img{
     border-radius: 50%;
-    border: 6px  aqua solid;
+    border: 6px  rgb(118, 119, 233);
+    box-shadow: 0 0 20px 5px rgba(175, 192, 207, 0.664);
+    box-shadow
+    
     width: 20%;
     /* margin-left: 10px; */
 }
 
 .aqua-line{
     height: 5px;
-    background-color: aqua;
+    background-color: rgb(118, 119, 233);
 }
 .container{
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
+    display: inline-;
     flex-direction: row;
+    margin-top: 20px;
+    position: relative;
     
 }
-.container:first-child{
-    flex: .5;
-}
+/*.container:first-child{
+    flex: 5;
+} */
 .aside{
     /* border: black 1px solid; */
+    display: inline-block;
+    background-color: rgba(136, 172, 204, 0.664);
     width: 30%;
     padding: 15px;
-    margin-right: 2rem;
+    margin-right: 0px;
+    /* margin-top: 20px; */
 
 }
 .section{
-    margin: 20px;
+    display: inline-block;
+    margin: 0px;
+    background-color: #e1b0e6ea;
+    padding-bottom: 30px;
+    padding-left: 25px;
+
 
 }
 
@@ -73,6 +93,7 @@ header img{
 }
 header {
     /* border: 1px black solid; */
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,9 +102,12 @@ header {
 header img{
     width: 20%;
     border-radius: 50%;
-    border: aqua 9px solid;
+    border:  rgb(118, 119, 233); 9px solid;
 }
 .werkervaring{
+}
+.Elektronica{
+    padding-bottom: 20px;
 }
 @media screen and (max-width: 750px){
 body{
