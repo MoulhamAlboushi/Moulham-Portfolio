@@ -2,7 +2,6 @@
 *{box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 body{
 width: 70%;
@@ -21,26 +20,17 @@ h2{
 h3{
     margin: 10px 0;
 }
-
 header h1{
     display: inline-block;
     position: absolute;
     left: 18%;
     background-color: rgb(118, 119, 233);
     width: 82%;
-    /* text-align: center; */
     padding-top: 10px;
     padding-left: 200px;
     padding-bottom: 10px;
-    /* margin-left: 200px; */
-    /* padding-right: 40%;
-    padding: 1rem 25% 1rem 30%; */
     z-index: -1;
 }
-/* header{
-    position: absolut;
-    top:500px;
-} */
 header img{
     border-radius: 50%;
     border: 6px  rgb(118, 119, 233);
@@ -48,43 +38,31 @@ header img{
     width: 20%;
     /* margin-left: 10px; */
 }
-
 .aqua-line{
     height: 5px;
     background-color: rgb(118, 119, 233);
 }
-.container{
-    /* display: flex; */
-    /* flex-direction: column; */
-    display: inline-;
-    flex-direction: row;
+ .container{
+    display: inline-block;
     margin-top: 20px;
     position: relative;
-    
-}
-/*.container:first-child{
-    flex: 5;
-} */
+} 
 .aside{
     border: black 1px solid;
     display: inline-block;
     background-color: rgba(136, 172, 204, 0.664);
     width: 30%;
     padding: 15px;
-    /* margin-right: 0px; */
-    /* margin-top: 20px; */
-
 }
-.section{
+main{
     border: 1px solid red;
     display: inline-block;
     margin-top:50px;
-    width: 740px;
+    width: 69%;
     background-color: #e1b0e6ea;
     padding-bottom: 30px;
     padding-left: 25px;
 }
-
 .vaardigheden li, .werkervaring li, .onderwijs li{
     list-style: none;
     padding-left: 20px;
@@ -94,15 +72,11 @@ header {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
-
 header img{
     width: 20%;
     border-radius: 50%;
     border:  rgb(118, 119, 233) 9px solid;
-}
-.werkervaring{
 }
 .Elektronica{
     padding-bottom: 20px;
