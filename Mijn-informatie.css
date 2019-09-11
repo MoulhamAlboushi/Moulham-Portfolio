@@ -27,7 +27,7 @@ header h1{
     position: absolute;
     left: 18%;
     background-color: rgb(118, 119, 233);
-    width: 60%;
+    width: 82%;
     /* text-align: center; */
     padding-top: 10px;
     padding-left: 200px;
@@ -37,10 +37,10 @@ header h1{
     padding: 1rem 25% 1rem 30%; */
     z-index: -1;
 }
-header{
+/* header{
     position: absolut;
     top:500px;
-}
+} */
 header img{
     border-radius: 50%;
     border: 6px  rgb(118, 119, 233);
@@ -83,8 +83,6 @@ header img{
     background-color: #e1b0e6ea;
     padding-bottom: 30px;
     padding-left: 25px;
-
-
 }
 
 .vaardigheden li, .werkervaring li, .onderwijs li{
