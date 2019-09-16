@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    primary-color:rgb(118, 119, 233);
+    secondery-color:  #e1b0e6ea;
+    
+}
 body{
 width: 70%;
 /* background-color: aqua; */
@@ -39,8 +44,9 @@ header img{
     /* margin-left: 10px; */
 }
 .aqua-line{
-    height: 5px;
+    height: 8px;
     background-color: rgb(118, 119, 233);
+    margin-top: 4px;
 }
  .container{
     display: inline-block;
@@ -53,11 +59,17 @@ header img{
     background-color: rgba(136, 172, 204, 0.664);
     width: 30%;
     padding: 15px;
+    margin-top: -50px;
 }
+ .container-min{
+    /* background-color: blue; */
+    /* align-items: top; */
+    /* align-content: flex-start; */
+} 
 main{
     border: 1px solid red;
     display: inline-block;
-    margin-top:50px;
+    margin-top:25px;
     width: 69%;
     background-color: #e1b0e6ea;
     padding-bottom: 30px;
