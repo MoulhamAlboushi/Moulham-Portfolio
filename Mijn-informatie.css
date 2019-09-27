@@ -55,7 +55,7 @@ header img{
 } 
 .aside{
     border: black 1px solid;
-    display: inline-block;
+    /* display: inline-block; */
     background-color: rgba(136, 172, 204, 0.664);
     width: 30%;
     padding: 15px;
@@ -65,10 +65,13 @@ header img{
     /* background-color: blue; */
     /* align-items: top; */
     /* align-content: flex-start; */
+}
+main, .aside{
+    display: inline-block;
 } 
 main{
     border: 1px solid red;
-    display: inline-block;
+    /* display: inline-block; */
     margin-top:25px;
     width: 69%;
     background-color: #e1b0e6ea;
